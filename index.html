@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>pagination</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px;">
+      <div id="users">
+        <input class="search" placeholder="Search" />
+        <button class="sort" data-sort="name">
+          Sort by name
+        </button>
+        <table>
+          <!-- IMPORTANT, class="list" have to be at tbody -->
+          <tbody class="list">
+            <tr>
+              <td class="name">Jonny Stromberg</td>
+              <td class="born">1986</td>
+            </tr>
+            <tr>
+              <td class="name">Jonas Arnklint</td>
+              <td class="born">1985</td>
+            </tr>
+            <tr>
+              <td class="name">Martina Elm</td>
+              <td class="born">1986</td>
+            </tr>
+            <tr>
+              <td class="name">Gustaf Lindqvist</td>
+              <td class="born">1983</td>
+            </tr>
+            <tr>
+              <td class="name">Wilson Miller</td>
+              <td class="born">1953</td>
+            </tr>
+            <tr>
+              <td class="name">Johnson Davis</td>
+              <td class="born">1983</td>
+            </tr>
+            <tr>
+              <td class="name">Smith Jones</td>
+              <td class="born">1985</td>
+            </tr>
+          </tbody>
+        </table>        
+      </div>
+    </div>
+      
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
